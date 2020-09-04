@@ -33,7 +33,7 @@ class AppServiceProvider extends ServiceProvider
         //View::share('jobs',['Sales','Engineer','Doctor']);
         
         View::composer(['employee.create','employee.edit'], function($view) {
-            $view->with('jobs',['Sales','Engineer','Doctor']);  
+            $view->with('jobs',['Sales','Engineer']);  
         });
 
         View::composer(['employee.create','employee.edit'], \App\Composers\OrganisationComposer::class);
