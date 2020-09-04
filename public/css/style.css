@@ -1,0 +1,37 @@
+body{
+    color: black;
+    background: lightyellow !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-align: center !important;
+    font-size: larger !important;
+    margin: 0.5%;
+}
+
+#head{
+    color: darkorange;
+    text-decoration: overline;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.myLink{
+    cursor: pointer;
+}
+
+.myLink:hover{box-shadow: 2px 2px 2px 2px green;}
+
+#err_mess{color: red; font-weight: bolder;}
+
+#comptitle{
+    color: hotpink;
+    text-decoration: underline;
+    font-family: Impact;
+    float: left;
+    text-transform: uppercase;
+}
+
+td,th, thead{width: 30%;text-align: center;}
+thead{
+    background-color: deeppink;
+    color:whitesmoke
+}
